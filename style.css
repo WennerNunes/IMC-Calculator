@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./assets/mistura-plana-leiga-de-quadro-de-legumes_23-2148369693.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 420px;
+    background-color: transparent;
+    border: 6px solid rgb(24, 165, 149);
+    border-radius: 15px;
+    color: #016b23;
+    padding: 20px 40px;
+
+}
+
+.container h1{
+    font-size: 32px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.label-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: -10px 2px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid  #016b23;
+    font-size: 16px;
+    color: #000;
+    padding: 20px 45px 20px 20px;
+}
+
+input::placeholder {
+    color: #016b23;
+    opacity: 0.8
+  }
+  
+.submit-box{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #0aec51;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    font-weight: 550;
+}
+
+.submit-box:hover{
+    background-color: #71da93;
+    border: 2px;
+    color: #000;
+    transition: 0.2s ;
+}
+
+.result-text{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 550;
+
+}
+
+@media (max-width: 950px) {
+    .container{
+        width: 285px;
+        border: 4px solid rgb(24, 165, 149);
+      
+    }
+
+    .container h1{
+        font-size: 18px;     
+    }
+
+    .label-form{
+        font-size: 14px ;
+        margin: -4px 0;
+    }
+
+    .submit-box{
+        font-size: 14px ;
+        margin-bottom: 8px;
+    }
+
+    .result-text{
+        font-size: 15px;
+        margin-top: -12px;
+        margin-bottom: -15px;
+    }
+    
+
+    
+}
